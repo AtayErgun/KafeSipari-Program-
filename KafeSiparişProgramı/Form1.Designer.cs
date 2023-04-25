@@ -31,19 +31,19 @@ namespace KafeSiparişProgramı
         {
             this.cay_label = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.caysayisi_label = new System.Windows.Forms.Label();
-            this.cayeksi_btn = new System.Windows.Forms.Button();
-            this.cayarti_btn = new System.Windows.Forms.Button();
-            this.kahve_label = new System.Windows.Forms.Label();
-            this.kahvesayisi_label = new System.Windows.Forms.Label();
-            this.kahveeksi_btn = new System.Windows.Forms.Button();
-            this.kahvearti_btn = new System.Windows.Forms.Button();
-            this.kola_label = new System.Windows.Forms.Label();
-            this.kolasayisi_label = new System.Windows.Forms.Label();
-            this.siparişitamamla_btn = new System.Windows.Forms.Button();
             this.sıfırla_btn = new System.Windows.Forms.Button();
-            this.kolaeksi_btn = new System.Windows.Forms.Button();
             this.kolaarti_btn = new System.Windows.Forms.Button();
+            this.kahvearti_btn = new System.Windows.Forms.Button();
+            this.kolaeksi_btn = new System.Windows.Forms.Button();
+            this.siparişitamamla_btn = new System.Windows.Forms.Button();
+            this.kahveeksi_btn = new System.Windows.Forms.Button();
+            this.cayarti_btn = new System.Windows.Forms.Button();
+            this.kolasayisi_label = new System.Windows.Forms.Label();
+            this.kahvesayisi_label = new System.Windows.Forms.Label();
+            this.kola_label = new System.Windows.Forms.Label();
+            this.cayeksi_btn = new System.Windows.Forms.Button();
+            this.kahve_label = new System.Windows.Forms.Label();
+            this.caysayisi_label = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,63 +79,26 @@ namespace KafeSiparişProgramı
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "SİPARİŞ MENÜSÜ";
             // 
-            // caysayisi_label
+            // sıfırla_btn
             // 
-            this.caysayisi_label.AutoSize = true;
-            this.caysayisi_label.Location = new System.Drawing.Point(102, 54);
-            this.caysayisi_label.Name = "caysayisi_label";
-            this.caysayisi_label.Size = new System.Drawing.Size(16, 17);
-            this.caysayisi_label.TabIndex = 0;
-            this.caysayisi_label.Text = "0";
+            this.sıfırla_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.sıfırla_btn.Location = new System.Drawing.Point(30, 203);
+            this.sıfırla_btn.Name = "sıfırla_btn";
+            this.sıfırla_btn.Size = new System.Drawing.Size(133, 48);
+            this.sıfırla_btn.TabIndex = 1;
+            this.sıfırla_btn.Text = "SIFIRLA";
+            this.sıfırla_btn.UseVisualStyleBackColor = true;
             // 
-            // cayeksi_btn
+            // kolaarti_btn
             // 
-            this.cayeksi_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cayeksi_btn.Location = new System.Drawing.Point(231, 54);
-            this.cayeksi_btn.Name = "cayeksi_btn";
-            this.cayeksi_btn.Size = new System.Drawing.Size(37, 23);
-            this.cayeksi_btn.TabIndex = 1;
-            this.cayeksi_btn.Text = "-";
-            this.cayeksi_btn.UseVisualStyleBackColor = true;
-            // 
-            // cayarti_btn
-            // 
-            this.cayarti_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cayarti_btn.Location = new System.Drawing.Point(177, 54);
-            this.cayarti_btn.Name = "cayarti_btn";
-            this.cayarti_btn.Size = new System.Drawing.Size(39, 23);
-            this.cayarti_btn.TabIndex = 1;
-            this.cayarti_btn.Text = "+";
-            this.cayarti_btn.UseVisualStyleBackColor = true;
-            // 
-            // kahve_label
-            // 
-            this.kahve_label.AutoSize = true;
-            this.kahve_label.Location = new System.Drawing.Point(43, 100);
-            this.kahve_label.Name = "kahve_label";
-            this.kahve_label.Size = new System.Drawing.Size(48, 17);
-            this.kahve_label.TabIndex = 0;
-            this.kahve_label.Text = "Kahve";
-            // 
-            // kahvesayisi_label
-            // 
-            this.kahvesayisi_label.AutoSize = true;
-            this.kahvesayisi_label.Location = new System.Drawing.Point(102, 100);
-            this.kahvesayisi_label.Name = "kahvesayisi_label";
-            this.kahvesayisi_label.Size = new System.Drawing.Size(16, 17);
-            this.kahvesayisi_label.TabIndex = 0;
-            this.kahvesayisi_label.Text = "0";
-            // 
-            // kahveeksi_btn
-            // 
-            this.kahveeksi_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kahveeksi_btn.Location = new System.Drawing.Point(231, 100);
-            this.kahveeksi_btn.Name = "kahveeksi_btn";
-            this.kahveeksi_btn.Size = new System.Drawing.Size(34, 23);
-            this.kahveeksi_btn.TabIndex = 1;
-            this.kahveeksi_btn.Text = "-";
-            this.kahveeksi_btn.UseVisualStyleBackColor = true;
-            this.kahveeksi_btn.Click += new System.EventHandler(this.button3_Click);
+            this.kolaarti_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.kolaarti_btn.Location = new System.Drawing.Point(177, 148);
+            this.kolaarti_btn.Name = "kolaarti_btn";
+            this.kolaarti_btn.Size = new System.Drawing.Size(39, 23);
+            this.kolaarti_btn.TabIndex = 1;
+            this.kolaarti_btn.Text = "+";
+            this.kolaarti_btn.UseVisualStyleBackColor = true;
+            this.kolaarti_btn.Click += new System.EventHandler(this.kolaarti_btn_Click);
             // 
             // kahvearti_btn
             // 
@@ -146,45 +109,7 @@ namespace KafeSiparişProgramı
             this.kahvearti_btn.TabIndex = 1;
             this.kahvearti_btn.Text = "+";
             this.kahvearti_btn.UseVisualStyleBackColor = true;
-            // 
-            // kola_label
-            // 
-            this.kola_label.AutoSize = true;
-            this.kola_label.Location = new System.Drawing.Point(43, 151);
-            this.kola_label.Name = "kola_label";
-            this.kola_label.Size = new System.Drawing.Size(36, 17);
-            this.kola_label.TabIndex = 0;
-            this.kola_label.Text = "Kola";
-            // 
-            // kolasayisi_label
-            // 
-            this.kolasayisi_label.AutoSize = true;
-            this.kolasayisi_label.Location = new System.Drawing.Point(102, 151);
-            this.kolasayisi_label.Name = "kolasayisi_label";
-            this.kolasayisi_label.Size = new System.Drawing.Size(16, 17);
-            this.kolasayisi_label.TabIndex = 0;
-            this.kolasayisi_label.Text = "0";
-            this.kolasayisi_label.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // siparişitamamla_btn
-            // 
-            this.siparişitamamla_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.siparişitamamla_btn.Location = new System.Drawing.Point(189, 203);
-            this.siparişitamamla_btn.Name = "siparişitamamla_btn";
-            this.siparişitamamla_btn.Size = new System.Drawing.Size(165, 48);
-            this.siparişitamamla_btn.TabIndex = 1;
-            this.siparişitamamla_btn.Text = "SİPARİŞİ TAMAMLA";
-            this.siparişitamamla_btn.UseVisualStyleBackColor = true;
-            // 
-            // sıfırla_btn
-            // 
-            this.sıfırla_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sıfırla_btn.Location = new System.Drawing.Point(30, 203);
-            this.sıfırla_btn.Name = "sıfırla_btn";
-            this.sıfırla_btn.Size = new System.Drawing.Size(133, 48);
-            this.sıfırla_btn.TabIndex = 1;
-            this.sıfırla_btn.Text = "SIFIRLA";
-            this.sıfırla_btn.UseVisualStyleBackColor = true;
+            this.kahvearti_btn.Click += new System.EventHandler(this.kahvearti_btn_Click);
             // 
             // kolaeksi_btn
             // 
@@ -197,15 +122,93 @@ namespace KafeSiparişProgramı
             this.kolaeksi_btn.UseVisualStyleBackColor = true;
             this.kolaeksi_btn.Click += new System.EventHandler(this.button3_Click);
             // 
-            // kolaarti_btn
+            // siparişitamamla_btn
             // 
-            this.kolaarti_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kolaarti_btn.Location = new System.Drawing.Point(177, 148);
-            this.kolaarti_btn.Name = "kolaarti_btn";
-            this.kolaarti_btn.Size = new System.Drawing.Size(39, 23);
-            this.kolaarti_btn.TabIndex = 1;
-            this.kolaarti_btn.Text = "+";
-            this.kolaarti_btn.UseVisualStyleBackColor = true;
+            this.siparişitamamla_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.siparişitamamla_btn.Location = new System.Drawing.Point(189, 203);
+            this.siparişitamamla_btn.Name = "siparişitamamla_btn";
+            this.siparişitamamla_btn.Size = new System.Drawing.Size(165, 48);
+            this.siparişitamamla_btn.TabIndex = 1;
+            this.siparişitamamla_btn.Text = "SİPARİŞİ TAMAMLA";
+            this.siparişitamamla_btn.UseVisualStyleBackColor = true;
+            // 
+            // kahveeksi_btn
+            // 
+            this.kahveeksi_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.kahveeksi_btn.Location = new System.Drawing.Point(231, 100);
+            this.kahveeksi_btn.Name = "kahveeksi_btn";
+            this.kahveeksi_btn.Size = new System.Drawing.Size(34, 23);
+            this.kahveeksi_btn.TabIndex = 1;
+            this.kahveeksi_btn.Text = "-";
+            this.kahveeksi_btn.UseVisualStyleBackColor = true;
+            this.kahveeksi_btn.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // cayarti_btn
+            // 
+            this.cayarti_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cayarti_btn.Location = new System.Drawing.Point(177, 54);
+            this.cayarti_btn.Name = "cayarti_btn";
+            this.cayarti_btn.Size = new System.Drawing.Size(39, 23);
+            this.cayarti_btn.TabIndex = 1;
+            this.cayarti_btn.Text = "+";
+            this.cayarti_btn.UseVisualStyleBackColor = true;
+            this.cayarti_btn.Click += new System.EventHandler(this.cayarti_btn_Click);
+            // 
+            // kolasayisi_label
+            // 
+            this.kolasayisi_label.AutoSize = true;
+            this.kolasayisi_label.Location = new System.Drawing.Point(102, 151);
+            this.kolasayisi_label.Name = "kolasayisi_label";
+            this.kolasayisi_label.Size = new System.Drawing.Size(16, 17);
+            this.kolasayisi_label.TabIndex = 0;
+            this.kolasayisi_label.Text = "0";
+            this.kolasayisi_label.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // kahvesayisi_label
+            // 
+            this.kahvesayisi_label.AutoSize = true;
+            this.kahvesayisi_label.Location = new System.Drawing.Point(102, 100);
+            this.kahvesayisi_label.Name = "kahvesayisi_label";
+            this.kahvesayisi_label.Size = new System.Drawing.Size(16, 17);
+            this.kahvesayisi_label.TabIndex = 0;
+            this.kahvesayisi_label.Text = "0";
+            // 
+            // kola_label
+            // 
+            this.kola_label.AutoSize = true;
+            this.kola_label.Location = new System.Drawing.Point(43, 151);
+            this.kola_label.Name = "kola_label";
+            this.kola_label.Size = new System.Drawing.Size(36, 17);
+            this.kola_label.TabIndex = 0;
+            this.kola_label.Text = "Kola";
+            // 
+            // cayeksi_btn
+            // 
+            this.cayeksi_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cayeksi_btn.Location = new System.Drawing.Point(231, 54);
+            this.cayeksi_btn.Name = "cayeksi_btn";
+            this.cayeksi_btn.Size = new System.Drawing.Size(37, 23);
+            this.cayeksi_btn.TabIndex = 1;
+            this.cayeksi_btn.Text = "-";
+            this.cayeksi_btn.UseVisualStyleBackColor = true;
+            // 
+            // kahve_label
+            // 
+            this.kahve_label.AutoSize = true;
+            this.kahve_label.Location = new System.Drawing.Point(43, 100);
+            this.kahve_label.Name = "kahve_label";
+            this.kahve_label.Size = new System.Drawing.Size(48, 17);
+            this.kahve_label.TabIndex = 0;
+            this.kahve_label.Text = "Kahve";
+            // 
+            // caysayisi_label
+            // 
+            this.caysayisi_label.AutoSize = true;
+            this.caysayisi_label.Location = new System.Drawing.Point(102, 54);
+            this.caysayisi_label.Name = "caysayisi_label";
+            this.caysayisi_label.Size = new System.Drawing.Size(16, 17);
+            this.caysayisi_label.TabIndex = 0;
+            this.caysayisi_label.Text = "0";
             // 
             // Form1
             // 

@@ -26,5 +26,26 @@ namespace KafeSiparişProgramı
         {
 
         }
+
+        private void cayarti_btn_Click(object sender, EventArgs e)
+        {
+            int caysayisi = Convert.ToInt32(caysayisi_label.Text);
+            caysayisi++;
+            caysayisi_label.Text = Convert.ToString(caysayisi);
+        }
+
+        private void kahvearti_btn_Click(object sender, EventArgs e)
+        {
+            int kahvesayisi = Convert.ToInt32(kahvesayisi_label.Text);
+              kahvesayisi++;
+            kahvesayisi_label.Text = Convert.ToString(kahvesayisi);
+        }
+
+        private void kolaarti_btn_Click(object sender, EventArgs e)
+        {
+            int kolasayisi = Convert.ToInt32(kolasayisi_label.Text);
+            kolasayisi++;
+            kolasayisi_label.Text = Convert.ToString(kolasayisi);
+        }
     }
 }
