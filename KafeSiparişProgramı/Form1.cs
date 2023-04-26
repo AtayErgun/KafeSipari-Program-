@@ -78,5 +78,17 @@ namespace KafeSiparişProgramı
                 kolasayisi_label.Text = Convert.ToString(kolasayisi);
             }
         }
+
+        private void sıfırla_btn_Click(object sender, EventArgs e)
+        {
+            caysayisi_label.Text="0";
+            kolasayisi_label.Text = "0";
+            kahvesayisi_label.Text = "0";
+        }
+
+        private void siparişitamamla_btn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Sipariş Özeti:"+" "+ caysayisi_label.Text +" "+ "Çay" +" "+ kahvesayisi_label.Text +" "+ "Kahve" +" "+ kolasayisi_label.Text +" "+ "Kola");
+        }
     }
 }
